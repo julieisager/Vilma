@@ -18,4 +18,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+.navbar-collapse {
+	background: linear-gradient(to bottom, #f8e534 0%, #8bc63f 100%);
+}
 
