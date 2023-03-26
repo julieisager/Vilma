@@ -18,7 +18,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-body {
+.index{
 	background: linear-gradient(to bottom, #6be5f2 0%, #c39dff 100%);
 }
 
@@ -30,6 +30,10 @@ body {
 .kalundborgpage, {
 	background: linear-gradient(to bottom, #f8e534 0%, #8bc63f 100%);
 
+}
+
+.headersog{
+	background: linear-gradient(to bottom, #6be5f2 0%, #c39dff 100%);
 }
 
 #ged {
@@ -57,7 +61,14 @@ border-color: transparent;
 
 .fa-bars{
 	color: #ea196a;
-	size: 210px;
+}
+
+.fa-magnifying-glass{
+	color: #ea196a;
+}
+
+.fa-arrow-left{
+	color: white;
 }
 
 .card{
@@ -66,8 +77,19 @@ border-color: transparent;
 
 #rundsog{
 	border: transparent;
+	background-color: transparent;
+	color: white;
+	border-bottom-color: white;
+	border-bottom: 1px solid ;
 
 }
+
+
+#sog{
+	border: transparent;
+}
+
+
 
 #read{
 	color: #0a4c59;
