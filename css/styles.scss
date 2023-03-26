@@ -21,3 +21,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .navbar-collapse {
 	background: linear-gradient(to bottom, #f8e534 0%, #8bc63f 100%);
 }
+
+#ged {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#sidebar-wrapper {
+	width: 130px;
+
+}
