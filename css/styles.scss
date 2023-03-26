@@ -18,8 +18,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+body {
+	background: linear-gradient(to bottom, #6be5f2 0%, #c39dff 100%);
+}
+
 .navbar-collapse {
 	background: linear-gradient(to bottom, #f8e534 0%, #8bc63f 100%);
+
 }
 
 #ged {
@@ -29,6 +34,46 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 #sidebar-wrapper {
-	width: 130px;
+	width: 140px;
+}
 
+
+.navbar-toggler{
+border-color: transparent;
+}
+
+.wrapper{
+	transition: 0.1s ease;
+}
+
+.fa-magnifying-glass{
+	color: white;
+}
+
+.fa-bars{
+	color: #ea196a;
+	size: 210px;
+}
+
+.card{
+	border: transparent;
+}
+
+#rundsog{
+	border: transparent;
+
+}
+
+#read{
+	color: #0a4c59;
+	border: transparent;
+}
+
+#navn{
+	color: white;
+
+}
+
+#icon{
+	color: white;
 }
