@@ -36,6 +36,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	background: linear-gradient(to bottom, #6be5f2 0%, #c39dff 100%);
 }
 
+.kortbg{
+	background: linear-gradient(to bottom, #6be5f2 0%, #c39dff 100%);
+}
+
 #ged {
 	position: absolute;
 	bottom: 0;
@@ -128,4 +132,8 @@ border-color: transparent;
 
 #icon{
 	color: white;
+}
+
+#kort{
+	max-width: 470px;
 }
