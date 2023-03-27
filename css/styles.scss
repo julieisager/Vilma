@@ -71,6 +71,11 @@ border-color: transparent;
 	color: white;
 }
 
+#pil{
+	border: transparent;
+	background-color: transparent;
+}
+
 .card{
 	border: transparent;
 }
@@ -105,3 +110,12 @@ border-color: transparent;
 #icon{
 	color: white;
 }
+
+#card-img-overlay, #card-img-overlay1, #card-img-overlay2, #card-img-overlay3, #card-img-overlay4{
+	position: absolute;
+	bottom: 0;
+	left: 12px;
+	color: white;
+}
+
+
