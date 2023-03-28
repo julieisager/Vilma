@@ -140,12 +140,15 @@ border-color: transparent;
 }
 #programhover:hover{
 	color: white;
+
 }
+
+
 
 #stilborder, #stilborder2{
 	border: transparent;
 	background-color: transparent;
-	border-bottom-color: lightslategray;
+	border-bottom-color: rgba(112, 124, 136, 0.87);
 	border-bottom: 1.5px solid ;
 	border-radius: 1px;
 
