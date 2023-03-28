@@ -57,6 +57,7 @@ border-color: transparent;
 
 .wrapper{
 	transition: 0.1s ease;
+
 }
 
 .fa-magnifying-glass{
@@ -137,3 +138,16 @@ border-color: transparent;
 #kort{
 	max-width: 470px;
 }
+#programhover:hover{
+	color: white;
+}
+
+#stilborder, #stilborder2{
+	border: transparent;
+	background-color: transparent;
+	border-bottom-color: black;
+	border-bottom: 2px solid ;
+	border-radius: 1px;
+
+}
+
