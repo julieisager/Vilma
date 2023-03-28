@@ -7,6 +7,27 @@ $link-decoration: none;
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+
+.ost2
+{
+	//@include font-size(1rem);
+
+	//font-size: calc(3vw + 0.3vh + 0.5vmin);
+	//font-size: 1rem;
+	//font-size: clamp(1rem, 0.9375rem + 0.3125vw, 1.25rem) !important;
+	//font-size: 20px;
+	//font-size: 4vw;
+	font-size: clamp( 1rem, 3vw, 2rem);
+
+
+}
+
 // 4. Include any default map overrides here
 $custom-colors: (
 	"farve": $cyan-400,
@@ -136,16 +157,16 @@ border-color: transparent;
 }
 
 #kort{
-	max-width: 400px;
+	max-width: 310px;
 }
-#programhover:hover{
-	color: white !important;
 
-}
 
 .ost{
 	color: white !important;
+	font-size: 1.2rem;
+
 }
+
 
 
 #stilborder, #stilborder2{
