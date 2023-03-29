@@ -172,9 +172,28 @@ border-color: transparent;
 #stilborder, #stilborder2{
 	border: transparent;
 	background-color: transparent;
-	border-bottom-color: rgba(112, 124, 136, 0.87)!important;
+	border-bottom-color: rgba(112, 124, 136, 0.59) !important;
 	border-bottom: 1.5px solid ;
 	border-radius: 1px;
 
 }
 
+
+#hund, #hund2{
+	border: transparent;
+	background-color: transparent;
+}
+
+#canvafarver, #offcanvasBottom, #canvafarver2, #offcanvasBottom1{
+	background-color: #69afbf;
+	color: white;
+}
+
+#indoglog, #indoglog2{
+
+}
+
+#farvenav{
+	background-color: transparent;
+	border: transparent;
+}
