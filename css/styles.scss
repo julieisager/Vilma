@@ -146,7 +146,7 @@ border-color: transparent;
 }
 
 #kort{
-	max-width: 450px;
+	max-width: 310px;
 }
 
 
@@ -196,10 +196,21 @@ border-color: transparent;
 }
 
 
+#modelprove, #modelprove1, #hik{
+	border: transparent;
+	background-color: transparent;
+}
 
+.modal-content{
+	background-color: rgba(139, 198, 63, 0.9);
+	border: transparent;
+	color: white;
+}
 
-
-
-
+.knaptext{
+	color: white;
+	background-color: rgba(105, 175, 191, 0.93);
+	border: transparent;
+}
 
 

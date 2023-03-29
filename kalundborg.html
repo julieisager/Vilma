@@ -108,30 +108,60 @@
               <div class="card mt-3 mb-3">
 
 
-                <button class="btn btn-primary card-img-overlay" id="hund2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom1"></button>
-
-                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel1">
-                  <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasBottomLabel1">Kærlighed ved føste hik (1999)</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-                  <div class="offcanvas-body" id="canvafarver2">
-                    Oplev den skønne romantiske komedie "Kærlighed ved første hik" af Tomas Villum Jensen! Følg teenageren Viktor i hans søgen efter kærligheden, da han starter i 1.g og forelsker sig i den skønne, men også noget ældre, 3.g’er Anja. Vil deres kærlighed overleve skolens intriger og hverdagens forhindringer? Find ud af det, i et gensyn med denne sjove og hjertevarmende film, der vil få dig til at grine og græde på samme tid.
+                <div class="modal fade" id="firstModal" aria-hidden="true" aria-labelledby="firstModalLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="firstModalLabel">Kærlighed ved føste hik (1999)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Oplev den skønne romantiske komedie "Kærlighed ved første hik" af Tomas Villum Jensen! Følg teenageren Viktor i hans søgen efter kærligheden, da han starter i 1.g og forelsker sig i den skønne, men også noget ældre, 3.g’er Anja. Vil deres kærlighed overleve skolens intriger og hverdagens forhindringer? Find ud af det, i et gensyn med denne sjove og hjertevarmende film, der vil få dig til at grine og græde på samme tid.
+                      <br>
+                        <img src="images/kalundbord/kaerlighed_ved_forste_hik.jpg" class="text-center" style="height: 200px" alt="kaelighed">
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#secondModal" data-bs-toggle="modal" data-bs-dismiss="modal">Se traileren</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
+
+                <div class="modal fade" id="secondModal" aria-hidden="true" aria-labelledby="secondModalLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qh1qZSrQrEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#firstModal" data-bs-toggle="modal" data-bs-dismiss="modal">Tilbage</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="btn btn-primary card-img-overlay" id="hik" data-bs-toggle="modal" href="#firstModal" role="button"></a>
+
+
+
+
 
                 <div><img src="images/kalundbord/kaerlighed_ved_forste_hik.jpg" class="card-img-top" alt="kaelighed"></div>
                 <div class="card-title" id="card-img-overlay"><p><h4>Kærlighed ved føste hik</h4>18:00 - Sal 1</div>
 
 
-
-
-
-
+            </div>
               </div>
             </div>
         </div>
-      </div>
+
 
       <div class="container">
         <div class="row g-4">
@@ -161,17 +191,50 @@
             <div class="card">
 
 
-              <button class="btn btn-primary card-img-overlay" id="hund" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"></button>
 
-              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasBottomLabel">En-to-tre-nu! (2016)</h5>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body" id="canvafarver">
-                  En-to-tre-NU handler om den talentfulde Jeppe som elsker at spille basket, og drømmer om en fremtid med det. Han møder og forelsker sig i den kreative Cecilie, men deres kærlighed er på lånt tid, eftersom Cecilie bliver dødeligt syg af kræft. Livet skal altså for alvor leves nu. Se eller gense denne hjerteknusende dramafilm ved at sikre dig dine billetter
+
+              <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel2">En-to-tre-nu! (2016)</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      En-to-tre-NU handler om den talentfulde Jeppe som elsker at spille basket, og drømmer om en fremtid med det. Han møder og forelsker sig i den kreative Cecilie, men deres kærlighed er på lånt tid, eftersom Cecilie bliver dødeligt syg af kræft. Livet skal altså for alvor leves nu. Se eller gense denne hjerteknusende dramafilm ved at sikre dig dine billetter
+                      <br>
+                      <img src="images/kalundbord/en-to-tre-nu.png" class="text-center" style="height: 300px" alt="en-to">
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary knaptext" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Se traileren</button>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                      <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qh1qZSrQrEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary knaptext" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Tilbage</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-primary card-img-overlay" id="modelprove1" data-bs-toggle="modal" href="#exampleModalToggle" role="button"></a>
+
+
+
+
 
 
               <div><img src="images/kalundbord/en-to-tre-nu.png" class="card-img-top" alt="en-to"></div>

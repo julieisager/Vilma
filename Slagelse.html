@@ -95,7 +95,7 @@
     <div class="container-fluid text-bg-farvetitel">
       <div class="row">
         <div class="col"></div>
-        <div class="col-10 text-center text-white mt-3 mb-3"> <h3>MovieHouse - Slagesle</h3></div>
+        <div class="col-10 text-center text-white mt-3 mb-3"> <h3>MovieHouse - Slagelse</h3></div>
         <div class="col"></div>
 
       </div>
@@ -127,29 +127,64 @@
             </div>
           </div>
 
+
+
+
+
+
           <div class="col-6">
             <div class="card">
 
-              <button class="btn btn-primary card-img-overlay" id="hund" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"></button>
-
-              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasBottomLabel">Zappa (1983)</h5>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body" id="canvafarver">
-                  Vi befinder os i Brønshøj i starten af 1960’erne. Fire unge drenge planlægger småkriminalitet, ledet af den barske og respekterede Sten. Med 2 nye medlemmer, er det starten på en række kriminelle handlinger, der alt sammen ender i et oprør, hvor opvækst, familieforhold og venskaber har en finger med i spillet.
-
+              <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel">Zappa (1983)</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Vi befinder os i Brønshøj i starten af 1960’erne. Fire unge drenge planlægger småkriminalitet, ledet af den barske og respekterede Sten. Med 2 nye medlemmer, er det starten på en række kriminelle handlinger, der alt sammen ender i et oprør, hvor opvækst, familieforhold og venskaber har en finger med i spillet.
+                      <br>
+                      <img src="images/slagelse/Zappa.png" class="text-center" style="height: 300px" alt="zappa">
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary knaptext" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Se traileren</button>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
 
+                      <div class="ratio ratio-16x9">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/F6pe9UoB5Rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
 
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary knaptext" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Tilbage</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-primary card-img-overlay" id="modelprove" data-bs-toggle="modal" href="#exampleModalToggle" role="button"></a>
 
 
               <div><img src="images/slagelse/Zappa.png" class="card-img-top" alt="zappa"></div>
               <div class="card-title" id="card-img-overlay7"><p><h5>Zappa</h5>13:00 - Sal 2</div>
             </div>
           </div>
+
+
+
+
+
+
 
           <div class="col-6 mb-3">
             <div class="card">
