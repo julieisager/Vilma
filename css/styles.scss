@@ -35,7 +35,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 }
 
-.kalundborgpage, {
+.kalundborgpage{
 	background: linear-gradient(to bottom, #f8e534 0%, #8bc63f 100%);
 
 }
@@ -146,7 +146,7 @@ border-color: transparent;
 }
 
 #kort{
-	max-width: 310px;
+	max-width: 450px;
 }
 
 
@@ -191,9 +191,11 @@ border-color: transparent;
 
 }
 
-#farveicon{
+#farveicon, #farveicon2, #farveicon3, #farveicon4, #farveicon5, #farveicon6{
 	color: white !important;
 }
+
+
 
 
 
