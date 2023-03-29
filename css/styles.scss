@@ -14,19 +14,6 @@ $link-decoration: none;
 
 
 
-.ost2
-{
-	//@include font-size(1rem);
-
-	//font-size: calc(3vw + 0.3vh + 0.5vmin);
-	//font-size: 1rem;
-	//font-size: clamp(1rem, 0.9375rem + 0.3125vw, 1.25rem) !important;
-	//font-size: 20px;
-	//font-size: 4vw;
-	font-size: clamp( 1rem, 3vw, 2rem);
-
-
-}
 
 // 4. Include any default map overrides here
 $custom-colors: (
@@ -61,11 +48,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	background: linear-gradient(to bottom, #6be5f2 0%, #c39dff 100%);
 }
 
-#ged {
+#ged, #ged3 {
 	position: absolute;
-	bottom: 0;
+	bottom: 50px;
 	left: 0;
 }
+
+
 
 #sidebar-wrapper {
 	width: 140px;
@@ -189,11 +178,26 @@ border-color: transparent;
 	color: white;
 }
 
-#indoglog, #indoglog2{
-
-}
 
 #farvenav{
 	background-color: transparent;
 	border: transparent;
 }
+
+#offcanvasScrolling{
+	background: linear-gradient(to bottom, #f8e534 0%, #8bc63f 100%);
+	color: white !important;
+	width: 180px;
+
+}
+
+#farveicon{
+	color: white !important;
+}
+
+
+
+
+
+
+
